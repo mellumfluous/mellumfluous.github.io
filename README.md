@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+# mellumfluous.html
 
-You can use the [editor on GitHub](https://github.com/mellumfluous/alpha/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+A webpage to showcase projects I've worked on and my experiences. Currently a work in progress. I've listed the gist of it below.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Education
 
-### Markdown
+Studied at UCSC for my Computer Science B.S. from Sept 2015 - June 2019
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Projects
 
-```markdown
-Syntax highlighted code block
+1. [My journey through the Automate The Boring Stuff Tutorial](https://github.com/mellumfluous/AutomateTheBoringStuff/tree/master/insert%20words)
 
-# Header 1
-## Header 2
-### Header 3
+2. [Visualization of Indonesia population density and average income](https://mellumfluous.github.io/indonesia/)
 
-- Bulleted
-- List
+3. [Group project where my groupmates and I visualized how world population is predicted to change](https://github.com/PranavSalunke/CMPS-184-Final-Project)
 
-1. Numbered
-2. List
+## Experience
 
-**Bold** and _Italic_ and `Code` text
+1. [UPS Store](https://www.theupsstore.com/) (06/2014 - present)
+    - Raised store traffic by about 20% by making UPS printing service fliers and updated store-related websites
+    - Increased store efficiency by providing technical assistance to customers and around the workplace
+    - Deterred fraud by impartially witnessing the signing of notary documents
 
-[Link](url) and ![Image](src)
-```
+2. [Resnet](https://its.ucsc.edu/resnet/) (09/2017 - 06/2019)
+    - Hired, trained, and directed ~20 ResNet techs to provide network support to ~20,000 UCSC students
+    - Supervised ResNet operations around the office by managing, prioritizing, and delegating tasks
+    - Provided high quality online, over-the-phone, and in-person troubleshooting assistance
+    - Escalated tickets to the correct department with relevant information
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## More Info
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mellumfluous/alpha/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[Email me](mailto:lum.h.mel@gmail.com)
+[My Github](https://github.com/mellumfluous)
+[My LinkedIn](https://www.linkedin.com/in/mellumfluous/)

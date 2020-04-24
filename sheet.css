@@ -1,0 +1,150 @@
+/* https://en.wikipedia.org/wiki/Salut_d%27amor */
+/* https://favicomatic.com */
+/* https://teamtreehouse.com/community/backgroundimage-opacity */
+
+/* Make height depend on width */
+/* https://stackoverflow.com/questions/5445491/height-equal-to-dynamic-width-css-fluid-layout */
+
+head.link {
+	background: "globe.png";
+	height: 32px;
+	width: 32px;
+	display: block;
+}
+
+.page{
+	position: static;
+}
+
+.page-bg {
+	position: fixed;
+	z-index: -1;   
+	width: 100%;
+	height: 100%;
+	background-image: url('bg.png');
+	background-size: cover;
+	opacity: .3;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+body{
+	background-color:#ffdad9;
+}
+
+/* intro part */
+.exposition{
+	width: fit-content;
+	padding: 10px;
+}
+
+.rising_action, .climax, .falling_action{
+	height: 40vh;
+}
+
+/* ========================================================================== */
+
+/* education */
+.rising_action{
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	float: left;
+	width: 30%;
+	padding: 5px;
+}
+
+.rising2{
+	overflow-y: scroll;
+}
+
+/* ========================================================================== */
+
+/* projects */
+.climax {
+	float: left;
+	width: 30%;
+	/* height: 40vh; */
+	padding: 5px;
+	overflow-y: scroll;
+	margin: 5px 5px;
+	border: solid black 1px;
+	border-radius: 20px 20px;
+	display: block;
+	box-sizing: border-box;
+	/* transition: white 1s ease; */
+}
+
+#icon img{
+	/* display: inline-block; */
+	float:left;
+	width: 60px;
+	margin: 0px 10px 10px 10px;
+	padding: .5em .5em;
+}
+
+.climax p {
+	vertical-align: top;
+	display: inline;
+}
+
+/* ========================================================================== */
+
+/* experience */
+.falling_action {
+	margin: 10px;
+	float: right;
+	width: 35%;
+}
+
+.falling_action ul{
+	margin: 5px 5px;
+}
+
+#info img{
+	width: 30px;
+	margin: 4px 4px;
+	border: 1px;
+}
+
+/* ========================================================================== */
+
+/* General style */
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: left;
+    font-size: 14pt;
+	font-family: Garamond;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+/* all scrollbars */
+::-webkit-scrollbar{
+	width: 8px;
+	height: 60%;
+}
+
+::-webkit-scrollbar-track{
+	background: none; 
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+	background: rgba(255,255,255, 0.5);
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(255,255,255); 
+}
+
