@@ -6,7 +6,7 @@
 /* https://stackoverflow.com/questions/5445491/height-equal-to-dynamic-width-css-fluid-layout */
 
 head.link {
-	background: "globe.png";
+	background: "img/globe.png";
 	height: 32px;
 	width: 32px;
 	display: block;
