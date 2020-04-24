@@ -1,4 +1,4 @@
-# mellumfluous.html
+# index.html
 
 A webpage to showcase projects I've worked on and my experiences. Currently a work in progress. I've listed the gist of it below.
 
