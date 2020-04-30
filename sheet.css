@@ -5,13 +5,6 @@
 /* Make height depend on width */
 /* https://stackoverflow.com/questions/5445491/height-equal-to-dynamic-width-css-fluid-layout */
 
-head.link {
-	background: "img/globe.png";
-	height: 32px;
-	width: 32px;
-	display: block;
-}
-
 .page{
 	position: static;
 }
@@ -34,75 +27,85 @@ body{
 	background-color:#ffdad9;
 }
 
+
 /* intro part */
 .exposition{
 	width: fit-content;
 	padding: 10px;
 }
 
-.rising_action, .climax, .falling_action{
-	height: 40vh;
+.the_journey_begins{
+	display: flex;
+	flex-flow: row wrap;
+	flex: 0 1 auto;
+	justify-content: space-around;
+	padding: 0;
+	margin: 5px;
+	list-style: none;
 }
 
+.events {
+	padding: 5px;
+	/* width: 30%; */
+	width: 400px;
+	height: 400px;
+	/* height: 40vh */
+	margin-top: 10px;
+	line-height: 150px;
+  }
+
+.rising_action, .climax, .falling_action {
+	height: 80%;
+	overflow-y: scroll;
+	line-height: 1.6;
+}
 /* ========================================================================== */
 
 /* education */
 .rising_action{
 	display: flex;
 	flex-direction: column;
-	width: 400px;
-	float: left;
-	width: 30%;
-	padding: 5px;
+}
+
+.rising1{
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
 }
 
 .rising2{
-	overflow-y: scroll;
+	height: inherit;
+	flex: 1 0 auto;
+	/* overflow-y: scroll; */
 }
-
-/* ========================================================================== */
 
 /* projects */
 .climax {
-	float: left;
-	width: 30%;
-	/* height: 40vh; */
-	padding: 5px;
 	overflow-y: scroll;
-	margin: 5px 5px;
 	border: solid black 1px;
 	border-radius: 20px 20px;
 	display: block;
 	box-sizing: border-box;
-	/* transition: white 1s ease; */
 }
 
-#icon img{
-	/* display: inline-block; */
-	float:left;
-	width: 60px;
-	margin: 0px 10px 10px 10px;
-	padding: .5em .5em;
-}
-
-.climax p {
-	vertical-align: top;
+.climax p h5 {
+	vertical-align: bottom;
 	display: inline;
 }
 
-/* ========================================================================== */
-
 /* experience */
-.falling_action {
-	margin: 10px;
-	float: right;
-	width: 35%;
+.falling_action{
+	display: flex;
+	flex-direction: column;
 }
 
-.falling_action ul{
-	margin: 5px 5px;
+.falling_action li{
+	display: flex;
+	flex-direction: row;
 }
 
+
+/* catastrophe */
 #info img{
 	width: 30px;
 	margin: 4px 4px;
@@ -115,12 +118,18 @@ body{
 
 h1 {
 	text-align: center;
+	font-weight: bold;
 }
 
 p {
+	line-height: 1.6;
 	text-align: left;
-    font-size: 14pt;
+	font-size: 14pt;
+}
+
+* {
 	font-family: Garamond;
+	color: black;
 }
 
 ul{
@@ -128,10 +137,23 @@ ul{
 	padding-left: 0;
 }
 
+/* Middle of page icons */
+#icon img{
+	float:left;
+	width: 60px;
+	margin: 0px 10px 10px 10px;
+	padding: .5em .5em;
+}
+
+.carousel img{
+	width: 80%;
+	position: center;
+}
+
 /* all scrollbars */
 ::-webkit-scrollbar{
 	width: 8px;
-	height: 60%;
+	height: 8px;
 }
 
 ::-webkit-scrollbar-track{
@@ -143,8 +165,3 @@ ul{
 	background: rgba(255,255,255, 0.5);
 	border-radius: 10px;
 }
-
-::-webkit-scrollbar-thumb:hover {
-	background: rgba(255,255,255); 
-}
-
