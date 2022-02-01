@@ -16,12 +16,17 @@ Studied at UCSC for my Computer Science B.S. from Sept 2015 - June 2019
 
 ## Experience
 
-1. [UPS Store](https://www.theupsstore.com/) (06/2014 - present)
+1. [Infosys](https://www.infosys.com/) (07/2021 - present)
+    - Infosys certified in: RDBMS, Oracle SQL, PL/SQL, EBS, Agile
+    - As an infosys associate champion, provided helpful documentation and instructions to new trainees
+    - Facilitated infosys meetings and christmas events
+
+2. [UPS Store](https://www.theupsstore.com/) (06/2014 - present)
     - Raised store traffic by about 20% by making UPS printing service fliers and updated store-related websites
     - Increased store efficiency by providing technical assistance to customers and around the workplace
     - Deterred fraud by impartially witnessing the signing of notary documents
 
-2. [Resnet](https://its.ucsc.edu/resnet/) (09/2017 - 06/2019)
+3. [Resnet](https://its.ucsc.edu/resnet/) (09/2017 - 06/2019)
     - Hired, trained, and directed ~20 ResNet techs to provide network support to ~20,000 UCSC students
     - Supervised ResNet operations around the office by managing, prioritizing, and delegating tasks
     - Provided high quality online, over-the-phone, and in-person troubleshooting assistance
